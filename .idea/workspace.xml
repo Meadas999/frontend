@@ -2,20 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6550410-a879-4844-babf-848594b55456" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Dating.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/fixtures/example.json" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/fixtures/example.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/fixtures/profile.json" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/fixtures/profile.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/fixtures/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/fixtures/users.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/support/commands.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/support/commands.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/support/e2e.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/support/e2e.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/homepage_background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Styling/IMG/homepage_background.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pictures/homepage_background.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Date.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dating.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dating.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/LoadingCircle.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/LoginButton.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/LogoutButton.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavBarGeneral.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBarGeneral.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavBarSignedIn.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBarSignedIn.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
@@ -142,7 +145,7 @@
       <workItem from="1673187063864" duration="35543000" />
       <workItem from="1673261290628" duration="20502000" />
       <workItem from="1673351858739" duration="3207000" />
-      <workItem from="1673366741021" duration="712000" />
+      <workItem from="1673366741021" duration="1630000" />
     </task>
     <servers />
   </component>

@@ -43,7 +43,7 @@ const Home = () => {
     const message = user ?
         <h2>Welcome, {user.firstname}</h2> :
         <h2 className="center">Register now and start dating</h2>;
-
+    
 
     if (loading) {
         return (
