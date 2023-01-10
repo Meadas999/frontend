@@ -1,45 +1,44 @@
-import React, {useState} from 'react';
+import React, {useState, lazy, Suspense} from 'react';
 import './App.css';
-import Home from './Home';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
-import User from "./User";
 import NavBarSI from "./components/NavBarSignedIn";
 import NavBarGL from "./components/NavBarGeneral";
 import AppContext from "./components/AppContext";
-import Date from "./Date";
+const Date = lazy(() => import("./Dating.js"));
+const ChatRoom = lazy(() => import("./components/ChatRoom.js"));
+const RegisterForm = lazy(() => import("./components/RegisterForm.js"));
+const Home = lazy(() => import('./Home.js'));
 
 //App.js
 const App = () => {
-    const [setting2value, setSetting2value] = useState(false);
+    const [authenticatedvalue, setAuthenticatedvalue] = useState(false);
     const [notificationvalue, setNotificationvalue] = useState(0);
     const userSettings = {
-        setting2name: setting2value,
-        setSetting2value,
+        authenticated: authenticatedvalue,
+        setAuthenticatedvalue,
         notificationname : notificationvalue,
         setNotificationvalue
     };
-
-
-
-    const navbar = setting2value ?
-        <NavBarSI/> : <NavBarGL/>
+    const navbar = authenticatedvalue ?
+        <NavBarSI id="navbarSI"/> : <NavBarGL id="navbarGL"/>
 
     return (
         <AppContext.Provider value={userSettings}>
-        <Router>
+            <Router>
                 {navbar}
                 <div>
+                    <Suspense>
                     <Routes>
                         <Route exact path="/" element={<Home/>}/>
-                        <Route exact path="/user" element={<User/>}/>
                         <Route exact path="/date" element={<Date/>}/>
+                        <Route exact path="/chat" element={<ChatRoom/>}/>
+                        <Route exact path="/register" element={<RegisterForm/>}/>
                     </Routes>
+                    </Suspense>
                 </div>
-        </Router>
+            </Router>
         </AppContext.Provider>
     );
-
-
 }
 
 export default App;

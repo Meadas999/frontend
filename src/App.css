@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+.homescreen-image{
+  background-image: url(./Styling/IMG/homepage_background.jpg);
+
+  /* Full height */
+  height: 50vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  flexWrap: 'wrap';
+  flexDirection: "row";
+  justifyContent:'flex-start';
+  text-align: center;
+}

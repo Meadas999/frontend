@@ -17,7 +17,7 @@ export default function ButtonAppBar() {
     }
 
     return (
-        <Box sx={{ flexGrow: 1 }}>
+        <Box sx={{ flexGrow: 1 }} id="navbarGL">
             <AppBar position="static">
                 <Toolbar>
                     <IconButton
@@ -30,7 +30,7 @@ export default function ButtonAppBar() {
                         <MenuIcon />
                     </IconButton>
                     <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-                        News
+                        Spicer
                     </Typography>
                     <Button onClick={login} color="inherit">Login</Button>
                 </Toolbar>

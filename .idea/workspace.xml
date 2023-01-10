@@ -2,22 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6550410-a879-4844-babf-848594b55456" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/LoginButton.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/LogoutButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dockerignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/appfront.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dating.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pictures/homepage_background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Styling/IMG/homepage_background.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Date.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LoadingCircle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LoginButton.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LogoutButton.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavBarGeneral.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBarGeneral.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavBarSignedIn.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBarSignedIn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +28,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -54,7 +54,8 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/amier/OneDrive/Bureaublad/Fontys/S3/IP/frontend&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/amier/OneDrive/Bureaublad/material-kit-react-main&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
@@ -62,6 +63,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\amier\OneDrive\Bureaublad\Fontys\S3\IP\frontend\src\Styling\IMG" />
+    </key>
+  </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000" useFirstLineBreakpoints="true">
       <method v="2" />
@@ -121,6 +127,22 @@
       <workItem from="1670924901998" duration="3325000" />
       <workItem from="1670947769821" duration="2563000" />
       <workItem from="1671014699644" duration="3920000" />
+      <workItem from="1671036744308" duration="1117000" />
+      <workItem from="1671107631172" duration="597000" />
+      <workItem from="1671460891835" duration="5976000" />
+      <workItem from="1672309703077" duration="10949000" />
+      <workItem from="1672586268420" duration="9093000" />
+      <workItem from="1672667627798" duration="5637000" />
+      <workItem from="1672749556305" duration="3144000" />
+      <workItem from="1672838102161" duration="5222000" />
+      <workItem from="1672875995672" duration="5273000" />
+      <workItem from="1672923126115" duration="30508000" />
+      <workItem from="1673033106424" duration="11219000" />
+      <workItem from="1673093449385" duration="7097000" />
+      <workItem from="1673187063864" duration="35543000" />
+      <workItem from="1673261290628" duration="20502000" />
+      <workItem from="1673351858739" duration="3207000" />
+      <workItem from="1673366741021" duration="712000" />
     </task>
     <servers />
   </component>
@@ -139,24 +161,11 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/User.js</url>
-          <line>11</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/User.js</url>
-          <line>37</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/User.js</url>
-          <line>23</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JavascriptDebugType">
+        <watch expression="setUser" language="JavaScript" />
+        <watch expression="e" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

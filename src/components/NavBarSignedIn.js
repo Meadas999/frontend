@@ -18,6 +18,7 @@ import MoreIcon from '@mui/icons-material/MoreVert';
 import {useCookies} from "react-cookie";
 import {useContext} from "react";
 import AppContext from "./AppContext";
+import {Link, Navigate, useNavigate} from "react-router-dom";
 
 
 
@@ -70,8 +71,14 @@ export default function PrimarySearchAppBar() {
     const isMenuOpen = Boolean(anchorEl);
     const isMobileMenuOpen = Boolean(mobileMoreAnchorEl);
 
+
     const myContext = useContext(AppContext);
     const [cookies] = useCookies(['XSRF-TOKEN']);
+    const navigate = useNavigate();
+   
+
+
+
 
     const handleProfileMenuOpen = (event) => {
         setAnchorEl(event.currentTarget);
@@ -96,7 +103,7 @@ export default function PrimarySearchAppBar() {
             headers: { 'X-XSRF-TOKEN': cookies['XSRF-TOKEN'] }
         })
             .then(res => res.json())
-            .then(myContext.setSetting2value(false))
+            .then(myContext.setAuthenticatedvalue(false))
             .then(response => {
                 window.location.href = `${response.logoutUrl}&returnTo=${window.location.origin}`;
             });
@@ -118,7 +125,7 @@ export default function PrimarySearchAppBar() {
             open={isMenuOpen}
             onClose={handleMenuClose}
         >
-            <MenuItem onClick={handleMenuClose}>Profile</MenuItem>
+            <MenuItem onClick={() => navigate(`/date`)}>Date </MenuItem>
             <MenuItem onClick={handleMenuClose}>My account</MenuItem>
             <MenuItem onClick={Logout}>Logout</MenuItem>
         </Menu>
@@ -189,13 +196,17 @@ export default function PrimarySearchAppBar() {
                     >
                         <MenuIcon />
                     </IconButton>
-                    <Typography
+                    <Typography sx={{  }}
                         variant="h6"
                         noWrap
-                        component="div"
-                        sx={{ display: { xs: 'none', sm: 'block' } }}
+                        component={Link} to={"/"}
+                        sx={{ display: { xs: 'none', sm: 'block' },
+                            textDecoration: "none", boxShadow: "none"
+                    }}
+
                     >
-                        MUI
+
+                    Spicer
                     </Typography>
                     <Search>
                         <SearchIconWrapper>
