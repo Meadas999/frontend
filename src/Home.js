@@ -56,7 +56,6 @@ const Home = () => {
             <div className="homescreen-image"></div>
             <Container fluid>
                 {message}
-                {/*{button}*/}
             </Container>
         </div>
     );
